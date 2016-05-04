@@ -1,0 +1,18 @@
+{
+    "id": "testapp",
+    "cpus": 0.1,
+    "mem": 16.0,
+    "instances": 1,
+    "container": {
+        "type": "DOCKER",
+        "docker": {
+            "image": "REGISTRY:5000/docker-eureka:latest",
+            "parameters": [
+                { "key": "host", "value": "10-10-0-2.eureka.docker" },
+                { "key": "name", "value": "10-10-0-2.eureka.docker" },
+                { "key": "net", "value": "NETWORK" },
+                { "key": "net", "value": "NETWORK" },
+            ]
+        }
+    }
+}
